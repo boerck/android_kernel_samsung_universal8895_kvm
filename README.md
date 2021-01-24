@@ -3,6 +3,9 @@ Samsung Galaxy S8 Exynos (dreamlte) KVM enabled test kernel
 This kernel is KVM enabled kernel for my test<br/>
 You can build and use if you want
 
+### Fixes of kernel
+* Virtualization, KVM enabled
+* Revert some commits for enable KVM
 
 ### How to build
 1. Use `git submodule update --init --recursive` in the repository to import Android Image Kitchen.
